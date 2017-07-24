@@ -1,0 +1,3 @@
+Trait de plus en plus fin à mesure des itérations
+Couleurs qui changent en fonction des itérations / coordonnées
+Angle / coefficient qui change dans le temps (ex : coeff = sinus)

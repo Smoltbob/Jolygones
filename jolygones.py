@@ -53,7 +53,8 @@ def main():
     pointb = (scale, 0)
     tabx = []
     taby = []
-    ligne = 1
+    line = 1
+
     for _ in range(round(360/angle)):
         # Rotation of point A around point B according to the angle.
         xc = ((pointa[0] - pointb[0]) * coeff * cos(angle)

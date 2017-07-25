@@ -55,7 +55,7 @@ def main():
     tabx = []
     taby = []
     ligne = 1
-    for _ in range(iterations):
+    for _ in range(round(360/angle)):
         # Rotation of point A around point B according to the angle.
         xc = ((pointa[0] - pointb[0]) * coeff * cos(angle)
               - (pointa[1] - pointb[1]) * coeff * sin(angle) + pointb[0])
@@ -79,7 +79,6 @@ def main():
     # Generating figure
     with open("test.svg", "w+") as svg_file:
         # We keep some room for the header
-        #svg_file.write("                                                    ")
         svg_file.write(svg.svg_header(round(maxiy, 3), round(maxix, 3)))
         svg_file.write(svg.svg_line(pointa[0], pointa[1],
                                     pointb[0], pointb[1],

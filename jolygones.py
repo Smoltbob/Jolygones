@@ -1,4 +1,4 @@
-green#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Generates Jolygones.
 To make one we start wih a line segment. Each new segment is obtained
@@ -10,8 +10,6 @@ At each iteration, we trace a new line according to the given angle.
 # TODO : random angles
 # TODO : no preprocessing
 # TODO : use functions
-# TODO : handle error when there is no arguments
-# TODO : handle missing arguments
 # TODO : use a single tab
 
 from math import cos, sin, pi, fabs

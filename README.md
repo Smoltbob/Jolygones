@@ -1,6 +1,9 @@
-
 # Jolygones
 A short Python implementation of "Jolygones", an idea I read about in the french magazine "Tangente".
+
+![triangle](https://raw.github.com/Smoltbob/Jolygones/master/examples/triangle.jpg)
+![carre](https://raw.github.com/Smoltbob/Jolygones/master/examples/carre.jpg)
+![etoile](https://raw.github.com/Smoltbob/Jolygones/master/examples/etoile.jpg)
 
 ## Getting started
 

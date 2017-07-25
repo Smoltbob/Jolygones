@@ -1,3 +1,4 @@
+
 # Jolygones
 A short Python implementation of "Jolygones", an idea I read about in the french magazine "Tangente".
 
@@ -16,8 +17,9 @@ As well as a way to display svg graphics (a web browser or most image viewers wi
 ## Running the code
 
 The syntax is the following :
-'''
+```
 ./jolygones -a <angle> -i <iterations> -c <coefficient> -s <size>
+```
 
 * angle is in degrees and should be less or equal to 90 degrees if you want the figure to loop inwards.
 * iterations is the number of segments that will be displayed.
@@ -31,10 +33,9 @@ The image generated will be called "test.svg".
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
-
 ## Authors
 
-* **Jules Simon** - *Initial work* - [PurpleBooth](https://github.com/Smoltbob)
+* **Jules Simon** - *Initial work* - [Smoltbob](https://github.com/Smoltbob)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 

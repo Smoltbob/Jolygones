@@ -28,16 +28,10 @@ The syntax is the following :
 
 The image generated will be called "test.svg".
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 
 ## Authors
 
 * **Jules Simon** - *Initial work* - [Smoltbob](https://github.com/Smoltbob)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
@@ -46,3 +40,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [Tangente magazine](http://tangente-mag.com/) 
+* PurpleBooth for this great [Readme](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)

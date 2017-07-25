@@ -7,7 +7,6 @@ Parameters : an angle and a coefficient
 At each iteration, we trace a new line according to the given angle.
 """
 
-# TODO : random angles
 # TODO : no preprocessing
 # TODO : use functions
 # TODO : use a single tab
@@ -82,7 +81,7 @@ def main():
         svg_file.write(svg.svg_header(round(maxiy, 3), round(maxix, 3)))
         svg_file.write(svg.svg_line(pointa[0], pointa[1],
                                     pointb[0], pointb[1],
-                                    red, green, blue, ligne))
+                                    red, green, blue, line))
         for boucle in range(iterations):
             # Updating colors
             index += 1
@@ -98,10 +97,10 @@ def main():
             pointa = pointb
             pointb = (xc, yc)
             # Tracing line
-            ligne = 2/(pow(boucle + 1, 1/3))
+            line = 2/(pow(boucle + 1, 1/3))
             svg_file.write(svg.svg_line(pointa[0], pointa[1],
                                         pointb[0], pointb[1],
-                                        red, vert, blue, ligne))
+                                        red, green, blue, line))
         # End of figure
         svg_file.write(svg.svg_footer())
 

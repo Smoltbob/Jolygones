@@ -12,8 +12,9 @@ At each iteration, we trace a new line according to the given angle.
 # TODO : random angles
 # TODO : no preprocessing
 # TODO : use functions
-# TODO : write header at the begining of main loop
 # TODO : add if name == main..
+# TODO : handle error when there is no arguments
+# TODO : handle missing arguments
 
 from math import cos, sin, pi, fabs
 import svg
@@ -82,7 +83,8 @@ def main():
     # Generating figure
     with open("test.svg", "w+") as svg_file:
         # We keep some room for the header
-        svg_file.write("                                                    ")
+        #svg_file.write("                                                    ")
+        svg_file.write(svg.svg_header(round(maxiy, 3), round(maxix, 3)))
         svg_file.write(svg.svg_line(pointa[0], pointa[1],
                                     pointb[0], pointb[1],
                                     rouge, vert, bleu, ligne))
@@ -107,7 +109,5 @@ def main():
                                         rouge, vert, bleu, ligne))
         # End of figure
         svg_file.write(svg.svg_footer())
-        svg_file.seek(0)
-        svg_file.write(svg.svg_header(round(maxiy, 3), round(maxix, 3)))
 
 main()

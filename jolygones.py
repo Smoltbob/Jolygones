@@ -7,14 +7,12 @@ Parameters : an angle and a coefficient
 At each iteration, we trace a new line according to the given angle.
 """
 
-# TODO : meilleure gestion du min max : ne pas faire de seconde itération
-# TODO : couleur
 # TODO : random angles
 # TODO : no preprocessing
 # TODO : use functions
-# TODO : add if name == main..
 # TODO : handle error when there is no arguments
 # TODO : handle missing arguments
+# TODO : use a single tab
 
 from math import cos, sin, pi, fabs
 import svg
@@ -110,4 +108,6 @@ def main():
         # End of figure
         svg_file.write(svg.svg_footer())
 
-main()
+# Calling script only if lauched (not imported)
+if __name__ == '__main__':
+    main()
